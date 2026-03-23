@@ -67,7 +67,7 @@ Add _BlinkCard_ as a dependency in module level `build.gradle(.kts)`:
 
 ```
 dependencies {
-    implementation("com.microblink:blinkcard-ux:3000.0.0")
+    implementation("com.microblink:blinkcard-ux:3000.0.1")
 }
 ```
 
@@ -135,7 +135,7 @@ Each card may have multiple card accounts (e.g., credit and debit), and each acc
 
 Card account results are represented as a list of `CardAccountResult` objects, which contain the following data:
 
-```
+```kotlin
 data class CardAccountResult(
     val cardNumber: String,
     val cardNumberValid: Boolean,
@@ -531,7 +531,7 @@ Add _blinkcard-core_ library as a dependency in module level `build.gradle(.kts)
 
 ```
 dependencies {
-    implementation("com.microblink:blinkcard-core:3000.0.0")
+    implementation("com.microblink:blinkcard-core:3000.0.1")
 }
 ```
 
